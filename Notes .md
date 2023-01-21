@@ -9,3 +9,34 @@ memory allotments, but with a high-level language like R, you’re fortunately s
 these technicalities.
 
 
+1. Comments in R
+To annotate a comment in R just use # to start the line.
+
+SYNTAX:
+#This is a comment in R
+--
+
+2. Working Directory
+- R always has a working directory associated with it
+- Unless there is Directory associated with it, it will use this one
+
+SYNTAX:
+# To check the default set work directory
+getwd()
+--
+
+- File paths are always enclosed in double quotation marks.
+- R uses forward slashes, not backslashes, when specifying folder locations.
+- Incase you end up using backslashes, R process double backslashes a single forward slash.
+
+SYNTAX
+# To set a working directory
+setwd("file_Location/file_Name")
+setwd("file_location\\file_name")
+
+3.
+
+
+
+
+
